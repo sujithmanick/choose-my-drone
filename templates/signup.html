@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+  body{
+  background:#121116;}
+  .modal-header, h4, .close {
+    background-color: #d2c18d;
+    color:white !important;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .modal-footer {
+  border-radius: 14px;
+    background-color: #f9f9f9;
+    justify-content: space-around;
+    display: flex;
+
+  }
+  .modal-content{
+border-radius:14px;
+}
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <!-- Modal -->
+  <div  id="myModal" role="dialog">
+    <div class="modal-dialog">
+    <form method="POST">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header" style="padding:35px 50px;border-radius: 14px;">
+
+          <h4 style="    display: flex;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    justify-content: center;"><span style="transform: rotate(90deg);" class="glyphicon glyphicon-open"></span> Signup</h4>
+        </div>
+        <div class="modal-body" style="padding:40px 50px;">
+          <form action="/signup1" method="POST" role="form">
+            <div class="form-group">
+              {% with messages = get_flashed_messages() %} {% if messages %} {% for
+                message in messages %}
+              <p style="color:red">{{ message }}</p>
+              {% endfor %} {% endif %} {% endwith %}
+              <label for="usrname"><span class="glyphicon glyphicon-user"></span> Name</label>
+              <input required="required" name="u_name" type="text" class="form-control" id="usrname" placeholder="Enter name">
+            </div>
+            <div class="form-group">
+              <label for="usrname"><span class="glyphicon glyphicon-envelope"></span> Email</label>
+              <input required="required" name="u_email" type="email" class="form-control" id="usrname" placeholder="Enter email">
+            </div>
+            <div class="form-group">
+              <label for="psw"><span class="glyphicon glyphicon-eye-open"></span> Password</label>
+              <input required="required" name="u_pass" type="password" class="form-control" id="psw" placeholder="Enter password">
+            </div>
+            
+
+              <button  style="background-color: #d2c18d;display: flex;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    justify-content: center;" class="btn btn-block"> Signup <span class="glyphicon glyphicon-log-in"></span> </button>
+          </form>
+        </div>
+        <div class="modal-footer" >
+
+          <p>Already a member? <a href="/login">login</a></p>
+          <p>Redirect<a href="/home"> Home?</a></p>
+          <p>Forget Password<a href="/forget"> Click?</a></p>
+        </div>
+      </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+
+
+</body>
+</html>

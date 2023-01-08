@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+  body{
+  background:#121116;}
+  .modal-header, h4, .close {
+    background-color: #d2c18d;
+    color:white !important;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .modal-footer {
+  border-radius: 14px;
+    background-color: #f9f9f9;
+    justify-content: space-around;
+    display: flex;
+
+  }
+  .modal-content{
+border-radius:14px;
+}
+  </style>
+</head>
+<body>
+
+<div class="container" style="    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* align-content: center; */
+    padding: 8%;">
+  <!-- Modal -->
+  <div  id="myModal" role="dialog">
+    <div class="modal-dialog">
+    <form method="POST">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header" style="padding:35px 50px;border-radius: 14px;">
+
+          <h4><span class="glyphicon glyphicon-lock"></span> Login</h4>
+        </div>
+        <div class="modal-body" style="padding:40px 50px;">
+          <form action="/login1" method="POST" role="form">
+            <div class="form-group">
+              {% with messages = get_flashed_messages() %} {% if messages %} {% for
+                message in messages %}
+              <p style="color: red;">{{ message }}</p>
+              {% endfor %} {% endif %} {% endwith %}
+              <label for="user email"><span class="glyphicon glyphicon-user"></span>user email</label>
+              <input required="required"  type="email" class="form-control" name="email" id="usrname" placeholder="Enter email">
+            </div>
+            <div class="form-group">
+              <label for="psw"><span class="glyphicon glyphicon-eye-open"></span>Password</label>
+              <input required="required" type="password" class="form-control" id="psw" name="pass" placeholder="Enter password">
+            </div>
+
+              <button  style="background-color: #d2c18d;" class="btn btn-block"><span class="glyphicon glyphicon-off"></span> Login</button>
+          </form>
+        </div>
+        <div class="modal-footer" >
+
+          <p>Not a member? <a href="/signup">Sign Up</a></p>
+          <p>Redirect <a href="/home">Home?</a></p>
+          <p>Forget Password<a href="/forget"> Click?</a></p>
+
+        </div>
+      </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+
+
+</body>
+</html>

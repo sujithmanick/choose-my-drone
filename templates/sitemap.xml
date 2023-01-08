@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://choosemydrone.pythonanywhere.com/</loc>
+  <lastmod>2021-02-27T05:56:54+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://choosemydrone.pythonanywhere.com/analyze</loc>
+  <lastmod>2021-02-27T05:56:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://choosemydrone.pythonanywhere.com/design</loc>
+  <lastmod>2021-02-27T05:56:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://choosemydrone.pythonanywhere.com/About</loc>
+  <lastmod>2021-02-27T05:56:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://choosemydrone.pythonanywhere.com/login</loc>
+  <lastmod>2021-02-27T05:56:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://choosemydrone.pythonanywhere.com/analyze/motor</loc>
+  <lastmod>2021-02-27T05:56:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://choosemydrone.pythonanywhere.com/analyze/propeller</loc>
+  <lastmod>2021-02-27T05:56:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://choosemydrone.pythonanywhere.com/analyze/ipa</loc>
+  <lastmod>2021-02-27T05:56:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://choosemydrone.pythonanywhere.com/analyze/stallspeed</loc>
+  <lastmod>2021-02-27T05:56:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://choosemydrone.pythonanywhere.com/analyze/all</loc>
+  <lastmod>2021-02-27T05:56:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://choosemydrone.pythonanywhere.com/signup</loc>
+  <lastmod>2021-02-27T05:56:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://choosemydrone.pythonanywhere.com/suggest/motor</loc>
+  <lastmod>2021-02-27T05:56:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://choosemydrone.pythonanywhere.com/design/motor</loc>
+  <lastmod>2021-02-27T05:56:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://choosemydrone.pythonanywhere.com/suggest/propeller</loc>
+  <lastmod>2021-02-27T05:56:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://choosemydrone.pythonanywhere.com/design/propeller</loc>
+  <lastmod>2021-02-27T05:56:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://choosemydrone.pythonanywhere.com/design/battery</loc>
+  <lastmod>2021-02-27T05:56:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://choosemydrone.pythonanywhere.com/design/esc</loc>
+  <lastmod>2021-02-27T05:56:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://choosemydrone.pythonanywhere.com/design/all</loc>
+  <lastmod>2021-02-27T05:56:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://choosemydrone.pythonanywhere.com/home</loc>
+  <lastmod>2021-02-27T05:56:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://choosemydrone.pythonanywhere.com/forget</loc>
+  <lastmod>2021-02-27T05:56:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>

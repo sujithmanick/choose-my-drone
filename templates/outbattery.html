@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title> Store</title>
+<style>body{background-image:url("static/img/mac3.jpg");
+background-repeat: no-repeat;background-size:cover;
+}
+
+h1{
+    text-align: center;
+    font-size: 33px;
+    color:green;
+}
+a{
+    color:red;
+    font-size=30px;
+    text-align:center;
+}
+strong,th,td,h2{
+    color:white;
+}
+
+body{
+  background-color:black;
+}</style>
+
+</head>
+<body>	<div>	<h2>You can Choose any one of these Batteries</h2>
+		{% if books %}
+		<table border=1>
+					<tr>
+				<th>Name</th>
+				<th>Resistance</th>
+				<th> Max WEight</th>
+                <th>Max Voltage</th>
+                <th>Max Current</th>
+
+			</tr>
+            {% for i in books %}
+			<tr>
+			    <td>{{i[0]}}</td>
+				<td>{{i[1]}}</td>
+				<td>{{i[2]}}</td>
+                <td>{{i[3]}}</td>
+                <td>{{i[4]}}</td>
+			</tr>
+            {% endfor%}
+		</table>
+		{% else %}
+		<h3>No books yet</h3>
+		{% endif %}
+	</div>
+</body>
+</html>

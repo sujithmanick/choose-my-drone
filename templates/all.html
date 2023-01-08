@@ -1,0 +1,85 @@
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="/static/css/mk1.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    #submission {
+      text-align: center;
+    }
+  </style>
+</head>
+
+
+<body>
+
+  <form method="post" action="/outall">
+    <fieldset>
+      <legend>ALL</legend>
+      <ol>Battery Section
+        <h1>Cell Capacity(mah) <input type="text" required="required" value="2300" name='all_mah'></h1><br>
+        <h1>Current(max) in Amp <input type="text" required="required" value="46" name='all_amp'></h1><br>
+        <h1>Volt per cell<input type="text" required="required" value="9.9" name='all_volt'></h1><br>
+        <h1>Cell Resistance in ohms eg(0.0089)<input type="text" value="0.009" required="required" name='all_r'></h1>
+        <br>
+        <h1>no of battery<input type="text" required="required" value="3" name='all_nob'></h1><br>
+        <h1>Battery Weight In grams<input type="text" value="216" required="required" name='all_bat'></h1><br>
+      </ol>
+      </ol>
+      <ol>Motor :Section
+        <h1>Kv<input type="text" value="1200" required="required" name='1'></h1><br>
+        <h1>Rm<input type="text" value="0.075" required="required" name='2'></h1><br>
+        <h1>Io in amps<input type="text" required="required" value="1.2" name='3'></h1><br>
+        <h1>Voltage<input type="text" required="required" value="8.2" name='4'></h1><br>
+        <h1>Max Current in amp<input type="text" required="required" value="25" name='5'></h1><br>
+        <h1>Max Power in watts<input type="text" required="required" value="165" name='6'></h1><br>
+        <h1>Kt in inoz/Amp<input type="text" value="1.227" required="required" name='7'></h1><br>
+        <h1> in grams<input type="text" required="required" value="55" name='8'></h1><br>
+      </ol>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <ol> Electronic Speed Controller ESC Sections
+        <h1>ESC Resistance in ohms<input type="text" required="required" name='all_res' value=0.0025></h1><br>
+        <h1>Max Current<input type="text" required="required" value="20" name='all_mc'></h1><br>
+        <h1>ESC Weight in grams<input type="text" value="14.2" required="required" name='all_weight'></h1><br>
+      </ol>
+      <ol>PROPELLER :Section
+        <h1>Number of blades<input type="text" value="2" required="required" name='all_nos'></h1><br>
+        <h1>Gear Ratio x:1<input type="text" value="1" required="required" name='gx'></h1><br>
+        <h1>Tk<input type="text" required="required" value="0.9" name='all_tk'></h1><br>
+        <h1>Pk<input type="text" required="required" value="0.7" name='all_pk'></h1><br>
+        <h1>Diameter in cm<input type="text" value="15.2" required="required" name='all_dia'></h1><br>
+        <h1>pitch in cm<input type="text" required="required" value="12.7" name='all_pitch'></h1><br>
+      </ol>
+      <ol>Enter the Ambient Temperature and Altitude sections
+        <h1>Temperature in celicius<input type="text" value="15" required="required" name='all_temp'></h1><br>
+        <h1>Altitude in Meter<input type="text" value="150" required="required" name='all_att'></h1><br>
+      </ol>
+
+
+
+
+      <p id="submission"><input type="submit" value="Submit"></p>
+    </fieldset>
+  </form>
+</body>
+
+</html>

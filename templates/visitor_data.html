@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title> Store</title>
+<style>
+body
+{
+	background-image:url("static/images/3.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+h1{
+    text-align: center;
+    font-size: 33px;
+    color:green;
+}
+a{
+    color:red;
+    font-size=30px;
+    text-align:center;
+}
+strong,th,td,h2{
+    color:white;
+}
+
+body{
+  background-color:black;
+}</style>
+
+</head>
+<body>	
+	<div>	
+		<h2>Quiz Database</h2>
+		{% if books %}
+		<table border=1>
+					<tr>
+			    <th>Number</th>
+				<th>ip</th>
+				<th>Device Info</th>
+				<th>Date</th>
+				<th>Month</th>
+				<th>Year</th>
+				<th>Time</th>
+				<th>Count's</th>
+			</tr>
+			{% for book in books %}
+			<tr>
+			    <td>{{book.id}}</td>
+				<td>{{book.ip}}</td>
+				<td>{{book.info}}</td>
+				<td>{{book.date}}</td>
+				<td>{{book.mon}}</td>
+				<td>{{book.year}}</td>
+				<td>{{book.time}}</td>
+				<td>{{book.count}}</td>
+			</tr>
+			{% endfor%}
+		</table>
+		{% else %}
+		<h3>No books yet</h3>
+		{% endif %}
+	</div>
+</body>
+</html>

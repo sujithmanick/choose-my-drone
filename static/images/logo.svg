@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="15px" height="30px" viewBox="0 0 360.979 230.466" style="
+    margin: auto;
+    ">
+    <g id="Component_22_1" data-name="Component 22 – 1" transform="translate(1)">
+    <g id="Group_13" data-name="Group 13" transform="translate(310.978 230.466) rotate(-166)">
+    <g id="Group_12" data-name="Group 12" transform="translate(53.697 0)">
+    <g id="Group_11" data-name="Group 11" transform="translate(0 82.825)">
+    <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(0 0)" fill="#fff" stroke="#707070" stroke-width="1">
+    <circle cx="19.226" cy="19.226" r="19.226" stroke="none"></circle>
+    <circle cx="19.226" cy="19.226" r="18.726" fill="none"></circle>
+    </g>
+    <g id="Group_10" data-name="Group 10" transform="translate(1.885 2.638)">
+    <g id="Path_3" data-name="Path 3" transform="translate(5.654 4.901)">
+    <path id="Path_4" data-name="Path 4" d="M11.047,22.094A11.047,11.047,0,1,1,22.094,11.047,11.059,11.059,0,0,1,11.047,22.094Z" transform="translate(0.64 0.64)" fill="#787878" stroke="#707070" stroke-width="1"></path>
+    <path id="Path_5" data-name="Path 5" d="M11.687,1.28A10.407,10.407,0,1,0,22.094,11.687,10.419,10.419,0,0,0,11.687,1.28m0-1.28A11.687,11.687,0,1,1,0,11.687,11.687,11.687,0,0,1,11.687,0Z" fill="#707070" stroke="#707070" stroke-width="1"></path>
+    </g>
+    <g id="Group_9" data-name="Group 9" transform="translate(0 0)">
+    <g id="Ellipse_3" data-name="Ellipse 3" transform="translate(4.147 4.901)" fill="#707070" stroke="#707070" stroke-width="1">
+      <circle cx="1.509" cy="1.509" r="1.509" stroke="none"></circle>
+      <circle cx="1.509" cy="1.509" r="1.009" fill="none"></circle>
+    </g>
+    <g id="Ellipse_8" data-name="Ellipse 8" transform="translate(26.766 25.636)" fill="#707070" stroke="#707070" stroke-width="1">
+      <circle cx="1.509" cy="1.509" r="1.509" stroke="none"></circle>
+      <circle cx="1.509" cy="1.509" r="1.009" fill="none"></circle>
+    </g>
+    <g id="Ellipse_9" data-name="Ellipse 9" transform="translate(4.147 25.636)" fill="#707070" stroke="#707070" stroke-width="1">
+      <circle cx="1.509" cy="1.509" r="1.509" stroke="none"></circle>
+      <circle cx="1.509" cy="1.509" r="1.009" fill="none"></circle>
+    </g>
+    <g id="Ellipse_10" data-name="Ellipse 10" transform="translate(26.766 4.901)" fill="#707070" stroke="#707070" stroke-width="1">
+      <circle cx="1.509" cy="1.509" r="1.509" stroke="none"></circle>
+      <circle cx="1.509" cy="1.509" r="1.009" fill="none"></circle>
+    </g>
+    <g id="Ellipse_4" data-name="Ellipse 4" transform="translate(15.833 30.913)" fill="#707070" stroke="#707070" stroke-width="1">
+      <circle cx="1.509" cy="1.509" r="1.509" stroke="none"></circle>
+      <circle cx="1.509" cy="1.509" r="1.009" fill="none"></circle>
+    </g>
+    <g id="Ellipse_5" data-name="Ellipse 5" transform="translate(0 15.079)" fill="#707070" stroke="#707070" stroke-width="1">
+      <circle cx="1.509" cy="1.509" r="1.509" stroke="none"></circle>
+      <circle cx="1.509" cy="1.509" r="1.009" fill="none"></circle>
+    </g>
+    <g id="Ellipse_6" data-name="Ellipse 6" transform="translate(30.913 15.079)" fill="#707070" stroke="#707070" stroke-width="1">
+      <circle cx="1.509" cy="1.509" r="1.509" stroke="none"></circle>
+      <circle cx="1.509" cy="1.509" r="1.009" fill="none"></circle>
+    </g>
+    <g id="Ellipse_7" data-name="Ellipse 7" transform="translate(15.833 0)" fill="#707070" stroke="#707070" stroke-width="1">
+      <circle cx="1.509" cy="1.509" r="1.509" stroke="none"></circle>
+      <circle cx="1.509" cy="1.509" r="1.009" fill="none"></circle>
+    </g>
+    </g>
+    </g>
+    </g>
+    <path id="Path_1" data-name="Path 1" d="M1.426,83.024c.013-.026-1.312,0-1.379.009-.472-.71,2.5-70.545,13.817-80.349S64.728,11.943,68.4,27.475,14.814,88.662,14.814,88.662A18.958,18.958,0,0,0,1.426,83.024Z" transform="translate(17.988 0)" fill="#ff5151"></path>
+    </g>
+    <path id="Path_2" data-name="Path 2" d="M1.5,81.569c.013-.026-1.4.006-1.464.012C-.3,81.1,1.525,10.448,13.818,2.052,23.1-6.76,70.394,14.939,68.357,26.844S14.928,87.93,14.928,87.93A18.333,18.333,0,0,0,1.5,81.569Z" transform="translate(68.327 202.552) rotate(-177)" fill="#ff5151"></path>
+    </g>
+    <text id="CMD" transform="translate(0 117.103)" fill="#fff" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="127" font-family="YeonSung-Regular, Yeon Sung"><tspan x="0" y="0">CMD</tspan></text>
+    <text id="CHOOSE_MY_DRONE" data-name="CHOOSE MY DRONE" transform="translate(37.107 145.982)" fill="#5751ff" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="16" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">CHOOSE MY DRONE</tspan></text>
+    </g>
+    </svg>

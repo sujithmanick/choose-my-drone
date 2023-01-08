@@ -1,0 +1,652 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Choose my Drone</title>
+  <link rel="icon" href="/static/images/logo.svg/" type="image/icon type">
+  <link rel="stylesheet" href="/static/css/main.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+    crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous" />
+    
+</head>
+
+<body>
+  <nav class="navbar">
+    <span class="navbar-toggle">
+      <i id="js-navbar-toggle" class="fa fa-bars"></i>
+    </span>
+    <a href="/" class="logo"><svg xmlns="http://www.w3.org/2000/svg" class="logonav" width="60" height="40"
+        viewBox="0 0 282.286 156.369">
+        <g id="Group_16" data-name="Group 16" transform="translate(1 -10.804)">
+          <g id="Group_13" data-name="Group 13" transform="translate(243.038 180.115) rotate(-166)">
+            <g id="Group_12" data-name="Group 12" transform="translate(41.966 0)">
+              <g id="Group_11" data-name="Group 11" transform="translate(0 64.73)">
+                <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(0 0)" fill="#fff" stroke="#707070"
+                  stroke-width="1">
+                  <circle cx="15.026" cy="15.026" r="15.026" stroke="none" />
+                  <circle cx="15.026" cy="15.026" r="14.526" fill="none" />
+                </g>
+                <g id="Group_10" data-name="Group 10" transform="translate(1.473 2.062)">
+                  <g id="Path_3" data-name="Path 3" transform="translate(4.419 3.83)">
+                    <path id="Path_4" data-name="Path 4"
+                      d="M8.633,17.267a8.633,8.633,0,1,1,8.633-8.633A8.643,8.643,0,0,1,8.633,17.267Z"
+                      transform="translate(0.5 0.5)" fill="#787878" stroke="#707070" stroke-width="1" />
+                    <path id="Path_5" data-name="Path 5"
+                      d="M9.133,1a8.133,8.133,0,1,0,8.133,8.133A8.143,8.143,0,0,0,9.133,1m0-1A9.133,9.133,0,1,1,0,9.133,9.133,9.133,0,0,1,9.133,0Z"
+                      transform="translate(0 0)" fill="#707070" stroke="#707070" stroke-width="1" />
+                  </g>
+                  <g id="Group_9" data-name="Group 9" transform="translate(0)">
+                    <g id="Ellipse_3" data-name="Ellipse 3" transform="translate(3.241 3.83)" fill="#707070"
+                      stroke="#707070" stroke-width="1">
+                      <circle cx="1.179" cy="1.179" r="1.179" stroke="none" />
+                      <circle cx="1.179" cy="1.179" r="0.679" fill="none" />
+                    </g>
+                    <g id="Ellipse_8" data-name="Ellipse 8" transform="translate(20.918 20.035)" fill="#707070"
+                      stroke="#707070" stroke-width="1">
+                      <circle cx="1.179" cy="1.179" r="1.179" stroke="none" />
+                      <circle cx="1.179" cy="1.179" r="0.679" fill="none" />
+                    </g>
+                    <g id="Ellipse_9" data-name="Ellipse 9" transform="translate(3.241 20.035)" fill="#707070"
+                      stroke="#707070" stroke-width="1">
+                      <circle cx="1.179" cy="1.179" r="1.179" stroke="none" />
+                      <circle cx="1.179" cy="1.179" r="0.679" fill="none" />
+                    </g>
+                    <g id="Ellipse_10" data-name="Ellipse 10" transform="translate(20.918 3.83)" fill="#707070"
+                      stroke="#707070" stroke-width="1">
+                      <circle cx="1.179" cy="1.179" r="1.179" stroke="none" />
+                      <circle cx="1.179" cy="1.179" r="0.679" fill="none" />
+                    </g>
+                    <g id="Ellipse_4" data-name="Ellipse 4" transform="translate(12.374 24.159)" fill="#707070"
+                      stroke="#707070" stroke-width="1">
+                      <circle cx="1.179" cy="1.179" r="1.179" stroke="none" />
+                      <circle cx="1.179" cy="1.179" r="0.679" fill="none" />
+                    </g>
+                    <g id="Ellipse_5" data-name="Ellipse 5" transform="translate(0 11.785)" fill="#707070"
+                      stroke="#707070" stroke-width="1">
+                      <circle cx="1.179" cy="1.179" r="1.179" stroke="none" />
+                      <circle cx="1.179" cy="1.179" r="0.679" fill="none" />
+                    </g>
+                    <g id="Ellipse_6" data-name="Ellipse 6" transform="translate(24.159 11.785)" fill="#707070"
+                      stroke="#707070" stroke-width="1">
+                      <circle cx="1.179" cy="1.179" r="1.179" stroke="none" />
+                      <circle cx="1.179" cy="1.179" r="0.679" fill="none" />
+                    </g>
+                    <g id="Ellipse_7" data-name="Ellipse 7" transform="translate(12.374 0)" fill="#707070"
+                      stroke="#707070" stroke-width="1">
+                      <circle cx="1.179" cy="1.179" r="1.179" stroke="none" />
+                      <circle cx="1.179" cy="1.179" r="0.679" fill="none" />
+                    </g>
+                  </g>
+                </g>
+              </g>
+              <path id="Path_1" data-name="Path 1"
+                d="M1.115,64.886c.01-.02-1.025,0-1.078.007C-.332,64.338,1.988,9.76,10.835,2.1s39.752,7.236,42.62,19.375S11.578,69.292,11.578,69.292A14.816,14.816,0,0,0,1.115,64.886Z"
+                transform="translate(14.058 0)" fill="#ff5151" stroke="#707070" stroke-width="1" />
+            </g>
+            <path id="Path_2" data-name="Path 2"
+              d="M1.173,63.749c.01-.02-1.091.005-1.144.009C-.238,63.386,1.192,8.166,10.8,1.6,18.054-5.283,55.015,11.676,53.423,20.98S11.667,68.72,11.667,68.72A14.328,14.328,0,0,0,1.173,63.749Z"
+              transform="translate(53.4 158.299) rotate(-177)" fill="#ff5151" stroke="#707070" stroke-width="1" />
+          </g>
+          <text id="CMD" transform="translate(0 91.804)" fill="#fff" stroke="rgba(0,0,0,0)" stroke-width="1"
+            font-size="100" font-family="YeonSung-Regular, Yeon Sung">
+            <tspan x="0" y="0">CMD</tspan>
+          </text>
+          <text id="CHOOSE_MY_DRONE" data-name="CHOOSE MY DRONE" transform="translate(29 114.804)" fill="#5751ff"
+            stroke="rgba(0,0,0,0)" stroke-width="1" font-size="13" font-family="SegoeUI-Bold, Segoe UI"
+            font-weight="700">
+            <tspan x="0" y="0">CHOOSE MY DRONE</tspan>
+          </text>
+        </g>
+      </svg>
+    </a>
+    <ul class="main-nav" style="padding: 25px 10px 0px 0px;" id="js-menu">
+      <li>
+        <a href="/" class="nav-links">Home</a>
+      </li>
+      <li>
+        <a href="/index1" class="nav-links">Analyze</a>
+      </li>
+      <li>
+        <a href="/design" class="nav-links">Design</a>
+      </li>
+      <li>
+        <a href="/About" class="nav-links">About</a>
+      </li>
+      <li>
+        <a href="/#contact" class="nav-links">Contact Us</a>
+      </li>
+      <li>
+        <a href="{{b}}" class="nav-links">{{a}}</a>
+      </li>
+    </ul>
+  </nav>
+
+  <div class="container" style="padding-top:150px;z-index:10">
+    <div class="section-header">
+        <h2 align="center" style="color:#FFFFFF;" class="section-title wow fadeInDown">
+          CMD TEAM
+</h2>
+
+<h4 style="color:#d1d1d1;" align="center" class="wow fadeInDown">Success isn't always about greatness. It's about consistency. Consistent hard work leads to success. Greatness will come.</h4>
+    </div></div>
+
+  <div class="container mt-4">
+    <div class="row">
+        <div class="card" style="min-width: 18rem; max-width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">Date (yyyy-mm-dd) : {{book.date}}</h5>
+                <h5 class="card-title">Time : {{book.time}}</h5>
+                <h5 class="card-title">Name : {{book.username}}</h5>
+                <h5 class="card-title">Unit Consumed from previous Reading : {{book.unit}}</h5>
+                <h5 class="card-title">Price for Consumed Unit : {{book.price}}</h5>
+                <h5 class="card-title">User Given Unit : {{book.unit1}}</h5>
+                <h5 class="card-title">Price Calculated for User Input : {{book.price1}}</h5>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+  <img src="/static/images/team/sujith.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    	<h5 align="center" class="card-title">Sujith M</h5>
+    <p align="center" class="card-text">UI and UX Desiger & Front-End Developer</p>
+    <div style="display:flex;justify-content:space-around;align-items:center;">
+        <div class="same-size">
+        <a target="_blank" href="https://www.facebook.com/profile.php?id=100011039501078"><i class='fa fa-facebook-f' style='font-size:22px;color:blue'></i></a>
+        </div><div class="same-size">
+            <a target="_blank" href="https://www.instagram.com/sujith__sujiiii/"><i class='fa fa-instagram' style='font-size:24px;color:blue'></i></a>
+        </div><div class="same-size" >
+            <a target="_blank" href="https://www.linkedin.com/in/sujith-manickam-785b4a186/"><i class="fa fa-linkedin" style='font-size:24px;color:blue'></i></a>
+        </div><div class="same-size">
+            <a target="_blank" href="https://sujith2407.pythonanywhere.com/"><i class="fa fa-globe" style='font-size:24px;color:blue'></i></a>
+        </div></div>
+  </div>
+</div>
+    </div>
+    <div class="col-md-3">
+        <div class="card" style="width: 18rem;">
+  <img src="/static/images/team/mk.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 align="center" class="card-title">Mukesh Raja K</h5>
+    <p align="center" class="card-text">Back-End Developer</p>
+    <div style="display:flex;justify-content:space-around;align-items:center;">
+        <div class="same-size">
+        <a target="_blank" href="https://www.facebook.com/mukesh.raja.92/"><i class='fa fa-facebook-f' style='font-size:22px;color:blue'></i></a>
+        </div><div class="same-size">
+            <a target="_blank" href="https://www.instagram.com/mukesh_raja_kannan/"><i class='fa fa-instagram' style='font-size:24px;color:blue'></i></a>
+        </div><div class="same-size" >
+            <a target="_blank" href="https://www.linkedin.com/in/mukesh-raja-aab752170/"><i class="fa fa-linkedin" style='font-size:24px;color:blue'></i></a>
+        </div><div class="same-size">
+            <a target="_blank" href="https://aboutmukesh.pythonanywhere.com/"><i class="fa fa-globe" style='font-size:24px;color:blue'></i></a>
+        </div></div>
+  </div>
+</div>
+    </div>
+    <div class="col-md-3"><div class="card" style="width: 18rem;">
+  <img src="/static/images/team/dinesh.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 align="center" class="card-title">Dinesh Kumar N</h5>
+    <p align="center" class="card-text">Database handler</p>
+    <div style="display:flex;justify-content:space-around;align-items:center;">
+        <div class="same-size">
+        <a target="_blank" href="  "><i class='fa fa-facebook-f' style='font-size:22px;color:blue'></i></a>
+        </div><div class="same-size">
+            <a target="_blank" href=" "><i class='fa fa-instagram' style='font-size:24px;color:blue'></i></a>
+        </div><div class="same-size" >
+            <a target="_blank" href="  "><i class="fa fa-linkedin" style='font-size:24px;color:blue'></i></a>
+        </div><div class="same-size">
+            <a target="_blank" href="  "><i class="fa fa-globe" style='font-size:24px;color:blue'></i></a>
+        </div></div>
+  </div>
+</div></div>
+    <div class="col-md-3"><div class="card" style="width: 18rem;">
+  <img src="/static/images/team/mathew.jpg" class="card-img-top" alt="...">
+  <div  class="card-body">
+    <h5 align="center" class="card-title">Mathew E Raaju</h5>
+    <p align="center" class="card-text">Data-Handler</p>
+    <div style="display:flex;justify-content:space-around;align-items:center;">
+        <div class="same-size">
+        <a target="_blank" href="  "><i class='fa fa-facebook-f' style='font-size:22px;color:blue'></i></a>
+        </div><div class="same-size">
+            <a target="_blank" href=" "><i class='fa fa-instagram' style='font-size:24px;color:blue'></i></a>
+        </div><div class="same-size" >
+            <a target="_blank" href="  "><i class="fa fa-linkedin" style='font-size:24px;color:blue'></i></a>
+        </div><div class="same-size">
+            <a target="_blank" href="  "><i class="fa fa-globe" style='font-size:24px;color:blue'></i></a>
+        </div></div>
+  </div>
+</div></div>
+    <div class="col-md-3"><div class="card" style="width: 18rem;">
+  <img src="/static/images/team/mani.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 align="center" class="card-title">Mani Kandan V</h5>
+    <p align="center" class="card-text">Formula Debugger</p>
+    <div style="display:flex;justify-content:space-around;align-items:center;">
+        <div class="same-size">
+        <a target="_blank" href="  "><i class='fa fa-facebook-f' style='font-size:22px;color:blue'></i></a>
+        </div><div class="same-size">
+            <a target="_blank" href=" "><i class='fa fa-instagram' style='font-size:24px;color:blue'></i></a>
+        </div><div class="same-size" >
+            <a target="_blank" href="  "><i class="fa fa-linkedin" style='font-size:24px;color:blue'></i></a>
+        </div><div class="same-size">
+            <a target="_blank" href="  "><i class="fa fa-globe" style='font-size:24px;color:blue'></i></a>
+        </div></div>
+  </div>
+</div></div>
+  </div>
+</div>
+
+
+
+
+  <footer>
+    <section class="hiw"
+      style="margin-top: 11vh;clip-path: polygon(0 0, 100% 11%, 100% 100%, 0% 100%);border-radius: 0;">
+      <div class="container" style="
+    max-width: 100%;padding-right: 0;
+    padding-left: 0;">
+        <div class="card text-center" style="background-color: #fff0;">
+          <div class="card-header">
+
+          </div>
+          <div class="card-body">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="row">
+                  <div class="col"><svg xmlns="http://www.w3.org/2000/svg" width="200px" height="100px"
+                      viewBox="0 0 360.979 230.466" style="
+    margin: auto;
+    ">
+                      <g id="Component_22_1" data-name="Component 22 – 1" transform="translate(1)">
+                        <g id="Group_13" data-name="Group 13" transform="translate(310.978 230.466) rotate(-166)">
+                          <g id="Group_12" data-name="Group 12" transform="translate(53.697 0)">
+                            <g id="Group_11" data-name="Group 11" transform="translate(0 82.825)">
+                              <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(0 0)" fill="#fff"
+                                stroke="#707070" stroke-width="1">
+                                <circle cx="19.226" cy="19.226" r="19.226" stroke="none"></circle>
+                                <circle cx="19.226" cy="19.226" r="18.726" fill="none"></circle>
+                              </g>
+                              <g id="Group_10" data-name="Group 10" transform="translate(1.885 2.638)">
+                                <g id="Path_3" data-name="Path 3" transform="translate(5.654 4.901)">
+                                  <path id="Path_4" data-name="Path 4"
+                                    d="M11.047,22.094A11.047,11.047,0,1,1,22.094,11.047,11.059,11.059,0,0,1,11.047,22.094Z"
+                                    transform="translate(0.64 0.64)" fill="#787878" stroke="#707070" stroke-width="1">
+                                  </path>
+                                  <path id="Path_5" data-name="Path 5"
+                                    d="M11.687,1.28A10.407,10.407,0,1,0,22.094,11.687,10.419,10.419,0,0,0,11.687,1.28m0-1.28A11.687,11.687,0,1,1,0,11.687,11.687,11.687,0,0,1,11.687,0Z"
+                                    fill="#707070" stroke="#707070" stroke-width="1"></path>
+                                </g>
+                                <g id="Group_9" data-name="Group 9" transform="translate(0 0)">
+                                  <g id="Ellipse_3" data-name="Ellipse 3" transform="translate(4.147 4.901)"
+                                    fill="#707070" stroke="#707070" stroke-width="1">
+                                    <circle cx="1.509" cy="1.509" r="1.509" stroke="none"></circle>
+                                    <circle cx="1.509" cy="1.509" r="1.009" fill="none"></circle>
+                                  </g>
+                                  <g id="Ellipse_8" data-name="Ellipse 8" transform="translate(26.766 25.636)"
+                                    fill="#707070" stroke="#707070" stroke-width="1">
+                                    <circle cx="1.509" cy="1.509" r="1.509" stroke="none"></circle>
+                                    <circle cx="1.509" cy="1.509" r="1.009" fill="none"></circle>
+                                  </g>
+                                  <g id="Ellipse_9" data-name="Ellipse 9" transform="translate(4.147 25.636)"
+                                    fill="#707070" stroke="#707070" stroke-width="1">
+                                    <circle cx="1.509" cy="1.509" r="1.509" stroke="none"></circle>
+                                    <circle cx="1.509" cy="1.509" r="1.009" fill="none"></circle>
+                                  </g>
+                                  <g id="Ellipse_10" data-name="Ellipse 10" transform="translate(26.766 4.901)"
+                                    fill="#707070" stroke="#707070" stroke-width="1">
+                                    <circle cx="1.509" cy="1.509" r="1.509" stroke="none"></circle>
+                                    <circle cx="1.509" cy="1.509" r="1.009" fill="none"></circle>
+                                  </g>
+                                  <g id="Ellipse_4" data-name="Ellipse 4" transform="translate(15.833 30.913)"
+                                    fill="#707070" stroke="#707070" stroke-width="1">
+                                    <circle cx="1.509" cy="1.509" r="1.509" stroke="none"></circle>
+                                    <circle cx="1.509" cy="1.509" r="1.009" fill="none"></circle>
+                                  </g>
+                                  <g id="Ellipse_5" data-name="Ellipse 5" transform="translate(0 15.079)" fill="#707070"
+                                    stroke="#707070" stroke-width="1">
+                                    <circle cx="1.509" cy="1.509" r="1.509" stroke="none"></circle>
+                                    <circle cx="1.509" cy="1.509" r="1.009" fill="none"></circle>
+                                  </g>
+                                  <g id="Ellipse_6" data-name="Ellipse 6" transform="translate(30.913 15.079)"
+                                    fill="#707070" stroke="#707070" stroke-width="1">
+                                    <circle cx="1.509" cy="1.509" r="1.509" stroke="none"></circle>
+                                    <circle cx="1.509" cy="1.509" r="1.009" fill="none"></circle>
+                                  </g>
+                                  <g id="Ellipse_7" data-name="Ellipse 7" transform="translate(15.833 0)" fill="#707070"
+                                    stroke="#707070" stroke-width="1">
+                                    <circle cx="1.509" cy="1.509" r="1.509" stroke="none"></circle>
+                                    <circle cx="1.509" cy="1.509" r="1.009" fill="none"></circle>
+                                  </g>
+                                </g>
+                              </g>
+                            </g>
+                            <path id="Path_1" data-name="Path 1"
+                              d="M1.426,83.024c.013-.026-1.312,0-1.379.009-.472-.71,2.5-70.545,13.817-80.349S64.728,11.943,68.4,27.475,14.814,88.662,14.814,88.662A18.958,18.958,0,0,0,1.426,83.024Z"
+                              transform="translate(17.988 0)" fill="#ff5151"></path>
+                          </g>
+                          <path id="Path_2" data-name="Path 2"
+                            d="M1.5,81.569c.013-.026-1.4.006-1.464.012C-.3,81.1,1.525,10.448,13.818,2.052,23.1-6.76,70.394,14.939,68.357,26.844S14.928,87.93,14.928,87.93A18.333,18.333,0,0,0,1.5,81.569Z"
+                            transform="translate(68.327 202.552) rotate(-177)" fill="#ff5151"></path>
+                        </g>
+                        <text id="CMD" transform="translate(0 117.103)" fill="#fff" stroke="rgba(0,0,0,0)"
+                          stroke-width="1" font-size="127" font-family="YeonSung-Regular, Yeon Sung">
+                          <tspan x="0" y="0">CMD</tspan>
+                        </text>
+                        <text id="CHOOSE_MY_DRONE" data-name="CHOOSE MY DRONE" transform="translate(37.107 145.982)"
+                          fill="#5751ff" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="16"
+                          font-family="SegoeUI-Bold, Segoe UI" font-weight="700">
+                          <tspan x="0" y="0">CHOOSE MY DRONE</tspan>
+                        </text>
+                      </g>
+                    </svg></div>
+
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="row">
+                  <div class="col">
+                    <h5>SOCIAL MEDIA</h5>
+                    <ul style="padding-top: 15px;">
+                      <a href="http://">
+                        <div style="display: flex;padding-top: 3px;align-items: center;padding-left: 10px;"><svg
+                            id="Icon_metro-instagram" data-name="Icon metro-instagram"
+                            xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 30.849 30.849">
+                            <path id="Icon_metro-instagram-2" data-name="Icon metro-instagram"
+                              d="M28.3,1.928H7.692A5.136,5.136,0,0,0,2.571,7.049V27.655a5.136,5.136,0,0,0,5.121,5.121H28.3a5.136,5.136,0,0,0,5.121-5.121V7.049A5.136,5.136,0,0,0,28.3,1.928Zm-15.852,13.5h11.1a5.874,5.874,0,1,1-11.1,0Zm17.117,0V26.992a1.934,1.934,0,0,1-1.928,1.928H8.355a1.934,1.934,0,0,1-1.928-1.928V15.424H9.443a8.767,8.767,0,1,0,17.1,0l3.016,0Zm0-6.75a.967.967,0,0,1-.964.964H26.671a.967.967,0,0,1-.964-.964V6.748a.967.967,0,0,1,.964-.964H28.6a.967.967,0,0,1,.964.964Z"
+                              transform="translate(-2.571 -1.928)" />
+                          </svg>
+                          <li style="padding-left: 10px;" align="left">INSTAGRAM</li>
+                        </div>
+                      </a>
+                      <a href="http://">
+                        <div style="display: flex;padding-top: 3px;align-items: center;padding-left: 10px;"><svg
+                            id="Icon_awesome-facebook-f" data-name="Icon awesome-facebook-f"
+                            xmlns="http://www.w3.org/2000/svg" width="16" height="20" viewBox="0 0 19.281 36">
+                            <path id="Icon_awesome-facebook-f-2" data-name="Icon awesome-facebook-f"
+                              d="M19.627,20.25l1-6.515H14.375V9.507c0-1.782.873-3.52,3.673-3.52h2.842V.44A34.658,34.658,0,0,0,15.846,0C10.7,0,7.332,3.12,7.332,8.769v4.965H1.609V20.25H7.332V36h7.043V20.25Z"
+                              transform="translate(-1.609)" />
+                          </svg>
+                          <li style="padding-left: 10px;" align="left">FACEBOOK</li>
+                        </div>
+                        <a href="mailto:choosemydrone@gmail.com">
+                          <div style="display: flex;padding-top: 3px;align-items: center;padding-left: 10px;"><svg
+                              id="Icon_ionic-md-mail" data-name="Icon ionic-md-mail" xmlns="http://www.w3.org/2000/svg"
+                              width="15" height="15" viewBox="0 0 30.428 24.75">
+                              <path id="Icon_ionic-md-mail-2" data-name="Icon ionic-md-mail"
+                                d="M29.78,5.625H5.148a2.959,2.959,0,0,0-2.9,3v18.75a2.959,2.959,0,0,0,2.9,3H29.78a2.959,2.959,0,0,0,2.9-3V8.625A2.959,2.959,0,0,0,29.78,5.625ZM29.418,12,17.464,20.25,5.51,12V9l11.954,8.25L29.418,9Z"
+                                transform="translate(-2.25 -5.625)" />
+                            </svg>
+                            <li style="padding-left: 10px;" align="left">MAIL</li>
+                          </div>
+                        </a>
+
+
+                    </ul>
+                  </div>
+                  <div class="col-md">
+                    <h5>MENU</h5>
+                    <ul style="padding-top: 15px;">
+                      <div style="display: flex;"><svg xmlns="http://www.w3.org/2000/svg" width="38.122" height="40.502"
+                          viewBox="0 0 38.122 40.502">
+                          <g id="Group_13" data-name="Group 13" transform="translate(28.161 44.091) rotate(-166)">
+                            <g id="Group_12" data-name="Group 12" transform="translate(11.112 0)">
+                              <g id="Group_11" data-name="Group 11" transform="translate(0 17.139)">
+                                <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(0 0)" fill="#fff"
+                                  stroke="#707070" stroke-width="1">
+                                  <circle cx="3.979" cy="3.979" r="3.979" stroke="none" />
+                                  <circle cx="3.979" cy="3.979" r="3.479" fill="none" />
+                                </g>
+                                <g id="Group_10" data-name="Group 10" transform="translate(0.39 0.546)">
+                                  <g id="Path_3" data-name="Path 3" transform="translate(1.17 1.014)">
+                                    <path id="Path_4" data-name="Path 4"
+                                      d="M2.286,4.572A2.286,2.286,0,1,1,4.572,2.286,2.289,2.289,0,0,1,2.286,4.572Z"
+                                      transform="translate(0.132 0.132)" fill="#787878" stroke="#707070"
+                                      stroke-width="1" />
+                                    <path id="Path_5" data-name="Path 5"
+                                      d="M2.418.265A2.154,2.154,0,1,0,4.572,2.418,2.156,2.156,0,0,0,2.418.265m0-.265A2.418,2.418,0,1,1,0,2.418,2.418,2.418,0,0,1,2.418,0Z"
+                                      transform="translate(0)" fill="#707070" stroke="#707070" stroke-width="1" />
+                                  </g>
+                                  <g id="Group_9" data-name="Group 9" transform="translate(0 0)">
+                                    <g id="Ellipse_3" data-name="Ellipse 3" transform="translate(0.858 1.014)"
+                                      fill="#707070" stroke="#707070" stroke-width="1">
+                                      <circle cx="0.312" cy="0.312" r="0.312" stroke="none" />
+                                      <circle cx="0.312" cy="0.312" r="0.188" fill="none" />
+                                    </g>
+                                    <g id="Ellipse_8" data-name="Ellipse 8" transform="translate(5.539 5.305)"
+                                      fill="#707070" stroke="#707070" stroke-width="1">
+                                      <circle cx="0.312" cy="0.312" r="0.312" stroke="none" />
+                                      <circle cx="0.312" cy="0.312" r="0.188" fill="none" />
+                                    </g>
+                                    <g id="Ellipse_9" data-name="Ellipse 9" transform="translate(0.858 5.305)"
+                                      fill="#707070" stroke="#707070" stroke-width="1">
+                                      <circle cx="0.312" cy="0.312" r="0.312" stroke="none" />
+                                      <circle cx="0.312" cy="0.312" r="0.188" fill="none" />
+                                    </g>
+                                    <g id="Ellipse_10" data-name="Ellipse 10" transform="translate(5.539 1.014)"
+                                      fill="#707070" stroke="#707070" stroke-width="1">
+                                      <circle cx="0.312" cy="0.312" r="0.312" stroke="none" />
+                                      <circle cx="0.312" cy="0.312" r="0.188" fill="none" />
+                                    </g>
+                                    <g id="Ellipse_4" data-name="Ellipse 4" transform="translate(3.276 6.397)"
+                                      fill="#707070" stroke="#707070" stroke-width="1">
+                                      <circle cx="0.312" cy="0.312" r="0.312" stroke="none" />
+                                      <circle cx="0.312" cy="0.312" r="0.188" fill="none" />
+                                    </g>
+                                    <g id="Ellipse_5" data-name="Ellipse 5" transform="translate(0 3.12)" fill="#707070"
+                                      stroke="#707070" stroke-width="1">
+                                      <circle cx="0.312" cy="0.312" r="0.312" stroke="none" />
+                                      <circle cx="0.312" cy="0.312" r="0.188" fill="none" />
+                                    </g>
+                                    <g id="Ellipse_6" data-name="Ellipse 6" transform="translate(6.397 3.12)"
+                                      fill="#707070" stroke="#707070" stroke-width="1">
+                                      <circle cx="0.312" cy="0.312" r="0.312" stroke="none" />
+                                      <circle cx="0.312" cy="0.312" r="0.188" fill="none" />
+                                    </g>
+                                    <g id="Ellipse_7" data-name="Ellipse 7" transform="translate(3.276 0)"
+                                      fill="#707070" stroke="#707070" stroke-width="1">
+                                      <circle cx="0.312" cy="0.312" r="0.312" stroke="none" />
+                                      <circle cx="0.312" cy="0.312" r="0.188" fill="none" />
+                                    </g>
+                                  </g>
+                                </g>
+                              </g>
+                              <path id="Path_1" data-name="Path 1"
+                                d="M.3,17.181c0-.005-.271,0-.285,0-.1-.147.517-14.6,2.859-16.627s10.526,1.916,11.285,5.13S3.066,18.347,3.066,18.347A3.923,3.923,0,0,0,.3,17.181Z"
+                                transform="translate(3.722 0)" fill="#ff5151" />
+                            </g>
+                            <path id="Path_2" data-name="Path 2"
+                              d="M.311,16.88c0-.005-.289,0-.3,0-.071-.1.308-14.72,2.852-16.457C4.78-1.4,14.567,3.092,14.146,5.555S3.089,18.2,3.089,18.2A3.794,3.794,0,0,0,.311,16.88Z"
+                              transform="translate(14.139 41.915) rotate(-177)" fill="#ff5151" />
+                          </g>
+                        </svg><a href="#home">
+                          <li>HOME</li>
+                        </a>
+                      </div>
+                      <div style="display: flex;"><svg xmlns="http://www.w3.org/2000/svg" width="38.122" height="40.502"
+                          viewBox="0 0 38.122 40.502">
+                          <g id="Group_13" data-name="Group 13" transform="translate(28.161 44.091) rotate(-166)">
+                            <g id="Group_12" data-name="Group 12" transform="translate(11.112 0)">
+                              <g id="Group_11" data-name="Group 11" transform="translate(0 17.139)">
+                                <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(0 0)" fill="#fff"
+                                  stroke="#707070" stroke-width="1">
+                                  <circle cx="3.979" cy="3.979" r="3.979" stroke="none" />
+                                  <circle cx="3.979" cy="3.979" r="3.479" fill="none" />
+                                </g>
+                                <g id="Group_10" data-name="Group 10" transform="translate(0.39 0.546)">
+                                  <g id="Path_3" data-name="Path 3" transform="translate(1.17 1.014)">
+                                    <path id="Path_4" data-name="Path 4"
+                                      d="M2.286,4.572A2.286,2.286,0,1,1,4.572,2.286,2.289,2.289,0,0,1,2.286,4.572Z"
+                                      transform="translate(0.132 0.132)" fill="#787878" stroke="#707070"
+                                      stroke-width="1" />
+                                    <path id="Path_5" data-name="Path 5"
+                                      d="M2.418.265A2.154,2.154,0,1,0,4.572,2.418,2.156,2.156,0,0,0,2.418.265m0-.265A2.418,2.418,0,1,1,0,2.418,2.418,2.418,0,0,1,2.418,0Z"
+                                      transform="translate(0)" fill="#707070" stroke="#707070" stroke-width="1" />
+                                  </g>
+                                  <g id="Group_9" data-name="Group 9" transform="translate(0 0)">
+                                    <g id="Ellipse_3" data-name="Ellipse 3" transform="translate(0.858 1.014)"
+                                      fill="#707070" stroke="#707070" stroke-width="1">
+                                      <circle cx="0.312" cy="0.312" r="0.312" stroke="none" />
+                                      <circle cx="0.312" cy="0.312" r="0.188" fill="none" />
+                                    </g>
+                                    <g id="Ellipse_8" data-name="Ellipse 8" transform="translate(5.539 5.305)"
+                                      fill="#707070" stroke="#707070" stroke-width="1">
+                                      <circle cx="0.312" cy="0.312" r="0.312" stroke="none" />
+                                      <circle cx="0.312" cy="0.312" r="0.188" fill="none" />
+                                    </g>
+                                    <g id="Ellipse_9" data-name="Ellipse 9" transform="translate(0.858 5.305)"
+                                      fill="#707070" stroke="#707070" stroke-width="1">
+                                      <circle cx="0.312" cy="0.312" r="0.312" stroke="none" />
+                                      <circle cx="0.312" cy="0.312" r="0.188" fill="none" />
+                                    </g>
+                                    <g id="Ellipse_10" data-name="Ellipse 10" transform="translate(5.539 1.014)"
+                                      fill="#707070" stroke="#707070" stroke-width="1">
+                                      <circle cx="0.312" cy="0.312" r="0.312" stroke="none" />
+                                      <circle cx="0.312" cy="0.312" r="0.188" fill="none" />
+                                    </g>
+                                    <g id="Ellipse_4" data-name="Ellipse 4" transform="translate(3.276 6.397)"
+                                      fill="#707070" stroke="#707070" stroke-width="1">
+                                      <circle cx="0.312" cy="0.312" r="0.312" stroke="none" />
+                                      <circle cx="0.312" cy="0.312" r="0.188" fill="none" />
+                                    </g>
+                                    <g id="Ellipse_5" data-name="Ellipse 5" transform="translate(0 3.12)" fill="#707070"
+                                      stroke="#707070" stroke-width="1">
+                                      <circle cx="0.312" cy="0.312" r="0.312" stroke="none" />
+                                      <circle cx="0.312" cy="0.312" r="0.188" fill="none" />
+                                    </g>
+                                    <g id="Ellipse_6" data-name="Ellipse 6" transform="translate(6.397 3.12)"
+                                      fill="#707070" stroke="#707070" stroke-width="1">
+                                      <circle cx="0.312" cy="0.312" r="0.312" stroke="none" />
+                                      <circle cx="0.312" cy="0.312" r="0.188" fill="none" />
+                                    </g>
+                                    <g id="Ellipse_7" data-name="Ellipse 7" transform="translate(3.276 0)"
+                                      fill="#707070" stroke="#707070" stroke-width="1">
+                                      <circle cx="0.312" cy="0.312" r="0.312" stroke="none" />
+                                      <circle cx="0.312" cy="0.312" r="0.188" fill="none" />
+                                    </g>
+                                  </g>
+                                </g>
+                              </g>
+                              <path id="Path_1" data-name="Path 1"
+                                d="M.3,17.181c0-.005-.271,0-.285,0-.1-.147.517-14.6,2.859-16.627s10.526,1.916,11.285,5.13S3.066,18.347,3.066,18.347A3.923,3.923,0,0,0,.3,17.181Z"
+                                transform="translate(3.722 0)" fill="#ff5151" />
+                            </g>
+                            <path id="Path_2" data-name="Path 2"
+                              d="M.311,16.88c0-.005-.289,0-.3,0-.071-.1.308-14.72,2.852-16.457C4.78-1.4,14.567,3.092,14.146,5.555S3.089,18.2,3.089,18.2A3.794,3.794,0,0,0,.311,16.88Z"
+                              transform="translate(14.139 41.915) rotate(-177)" fill="#ff5151" />
+                          </g>
+                        </svg><a href="#HOWITWORKS">
+                          <li style="text-align: left;">HOW IT WORKS</li>
+                        </a>
+                      </div>
+                      <div style="display: flex;"><svg xmlns="http://www.w3.org/2000/svg" width="38.122" height="40.502"
+                          viewBox="0 0 38.122 40.502">
+                          <g id="Group_13" data-name="Group 13" transform="translate(28.161 44.091) rotate(-166)">
+                            <g id="Group_12" data-name="Group 12" transform="translate(11.112 0)">
+                              <g id="Group_11" data-name="Group 11" transform="translate(0 17.139)">
+                                <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(0 0)" fill="#fff"
+                                  stroke="#707070" stroke-width="1">
+                                  <circle cx="3.979" cy="3.979" r="3.979" stroke="none" />
+                                  <circle cx="3.979" cy="3.979" r="3.479" fill="none" />
+                                </g>
+                                <g id="Group_10" data-name="Group 10" transform="translate(0.39 0.546)">
+                                  <g id="Path_3" data-name="Path 3" transform="translate(1.17 1.014)">
+                                    <path id="Path_4" data-name="Path 4"
+                                      d="M2.286,4.572A2.286,2.286,0,1,1,4.572,2.286,2.289,2.289,0,0,1,2.286,4.572Z"
+                                      transform="translate(0.132 0.132)" fill="#787878" stroke="#707070"
+                                      stroke-width="1" />
+                                    <path id="Path_5" data-name="Path 5"
+                                      d="M2.418.265A2.154,2.154,0,1,0,4.572,2.418,2.156,2.156,0,0,0,2.418.265m0-.265A2.418,2.418,0,1,1,0,2.418,2.418,2.418,0,0,1,2.418,0Z"
+                                      transform="translate(0)" fill="#707070" stroke="#707070" stroke-width="1" />
+                                  </g>
+                                  <g id="Group_9" data-name="Group 9" transform="translate(0 0)">
+                                    <g id="Ellipse_3" data-name="Ellipse 3" transform="translate(0.858 1.014)"
+                                      fill="#707070" stroke="#707070" stroke-width="1">
+                                      <circle cx="0.312" cy="0.312" r="0.312" stroke="none" />
+                                      <circle cx="0.312" cy="0.312" r="0.188" fill="none" />
+                                    </g>
+                                    <g id="Ellipse_8" data-name="Ellipse 8" transform="translate(5.539 5.305)"
+                                      fill="#707070" stroke="#707070" stroke-width="1">
+                                      <circle cx="0.312" cy="0.312" r="0.312" stroke="none" />
+                                      <circle cx="0.312" cy="0.312" r="0.188" fill="none" />
+                                    </g>
+                                    <g id="Ellipse_9" data-name="Ellipse 9" transform="translate(0.858 5.305)"
+                                      fill="#707070" stroke="#707070" stroke-width="1">
+                                      <circle cx="0.312" cy="0.312" r="0.312" stroke="none" />
+                                      <circle cx="0.312" cy="0.312" r="0.188" fill="none" />
+                                    </g>
+                                    <g id="Ellipse_10" data-name="Ellipse 10" transform="translate(5.539 1.014)"
+                                      fill="#707070" stroke="#707070" stroke-width="1">
+                                      <circle cx="0.312" cy="0.312" r="0.312" stroke="none" />
+                                      <circle cx="0.312" cy="0.312" r="0.188" fill="none" />
+                                    </g>
+                                    <g id="Ellipse_4" data-name="Ellipse 4" transform="translate(3.276 6.397)"
+                                      fill="#707070" stroke="#707070" stroke-width="1">
+                                      <circle cx="0.312" cy="0.312" r="0.312" stroke="none" />
+                                      <circle cx="0.312" cy="0.312" r="0.188" fill="none" />
+                                    </g>
+                                    <g id="Ellipse_5" data-name="Ellipse 5" transform="translate(0 3.12)" fill="#707070"
+                                      stroke="#707070" stroke-width="1">
+                                      <circle cx="0.312" cy="0.312" r="0.312" stroke="none" />
+                                      <circle cx="0.312" cy="0.312" r="0.188" fill="none" />
+                                    </g>
+                                    <g id="Ellipse_6" data-name="Ellipse 6" transform="translate(6.397 3.12)"
+                                      fill="#707070" stroke="#707070" stroke-width="1">
+                                      <circle cx="0.312" cy="0.312" r="0.312" stroke="none" />
+                                      <circle cx="0.312" cy="0.312" r="0.188" fill="none" />
+                                    </g>
+                                    <g id="Ellipse_7" data-name="Ellipse 7" transform="translate(3.276 0)"
+                                      fill="#707070" stroke="#707070" stroke-width="1">
+                                      <circle cx="0.312" cy="0.312" r="0.312" stroke="none" />
+                                      <circle cx="0.312" cy="0.312" r="0.188" fill="none" />
+                                    </g>
+                                  </g>
+                                </g>
+                              </g>
+                              <path id="Path_1" data-name="Path 1"
+                                d="M.3,17.181c0-.005-.271,0-.285,0-.1-.147.517-14.6,2.859-16.627s10.526,1.916,11.285,5.13S3.066,18.347,3.066,18.347A3.923,3.923,0,0,0,.3,17.181Z"
+                                transform="translate(3.722 0)" fill="#ff5151" />
+                            </g>
+                            <path id="Path_2" data-name="Path 2"
+                              d="M.311,16.88c0-.005-.289,0-.3,0-.071-.1.308-14.72,2.852-16.457C4.78-1.4,14.567,3.092,14.146,5.555S3.089,18.2,3.089,18.2A3.794,3.794,0,0,0,.311,16.88Z"
+                              transform="translate(14.139 41.915) rotate(-177)" fill="#ff5151" />
+                          </g>
+                        </svg><a href="#contact">
+                          <li>CONTACT US</li>
+                        </a>
+                      </div>
+
+
+                    </ul>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <div class="card-footer text-muted" style="font-weight: bolder;">
+            &copy; TEAM CMD
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </footer>
+  <script src="/static/js/main.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
