@@ -17,11 +17,11 @@ time.tzset()
 format = "%Y-%m-%d %H:%M:%S"
 app = Flask(__name__)
 app.config["DEBUG"] = True
-app.secret_key = "cmd@MSDMM"
+app.secret_key = "app_secret_key"
 
 SQLALCHEMY_DATABASE_URI = "mysql+mysqlconnector://{username}:{password}@{hostname}/{databasename}".format(
     username="choosemydrone",
-    password="teamcmd1234",
+    password="SQL_Password",
     hostname="choosemydrone.mysql.pythonanywhere-services.com",
     databasename=" choosemydrone$team_cmd",
 )
@@ -1309,7 +1309,7 @@ def con():
     port = 465
     smtp_server = "smtp.gmail.com"
     sender_email = "choosemydrone@gmail.com"
-    password ="zvjlfjkaaexertdb"
+    password ="Mail_Password"
     message ="Hiiii " + session['name1'] + " " + 'we will contact you soon...'
     message1 =session['name1']+session['message1']+session['email1']
     try:
